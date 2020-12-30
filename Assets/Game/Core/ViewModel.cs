@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System.ComponentModel;
+using UnityWeld.Binding;
 
+[Binding]
 public class ViewModel : MonoBehaviour, INotifyPropertyChanged
 {
     protected void OnPropertyChanged(string propertyName)
