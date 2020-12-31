@@ -1,7 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityWeld.Binding;
+﻿using UnityWeld.Binding;
 
 [Binding]
 public class ViewModel_2_TwoWayPropertyBinding : ViewModel
