@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityWeld.Binding;
 
 [Binding]
-public class ViewModel_4_Validation : ViewModel
+public class ViewModel_4_Validation : ViewModelMonoBehaviour
 {
     private int text;
     

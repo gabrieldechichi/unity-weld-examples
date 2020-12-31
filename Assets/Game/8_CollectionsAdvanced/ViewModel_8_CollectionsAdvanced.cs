@@ -9,7 +9,7 @@ public interface IViewModelCollectionOwner<T>
 }
 
 [Binding]
-public class ViewModel_8_CollectionsAdvanced : ViewModel, IViewModelCollectionOwner<ItemViewModelAdvanced>
+public class ViewModel_8_CollectionsAdvanced : ViewModelMonoBehaviour, IViewModelCollectionOwner<ItemViewModelAdvanced>
 {
     ObservableList<ItemViewModelAdvanced> items = new ObservableList<ItemViewModelAdvanced>();
 

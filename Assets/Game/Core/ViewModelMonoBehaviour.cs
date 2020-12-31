@@ -1,14 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using System.ComponentModel;
 using UnityEngine;
+using System.ComponentModel;
+using UnityWeld.Binding;
 
-public class ViewModel : INotifyPropertyChanged
+[Binding]
+public class ViewModelMonoBehaviour : MonoBehaviour, INotifyPropertyChanged
 {
     protected void OnPropertyChanged(string propertyName)
     {
         PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
     }
 
-    public event PropertyChangedEventHandler PropertyChanged;    
+    public event PropertyChangedEventHandler PropertyChanged;
 }

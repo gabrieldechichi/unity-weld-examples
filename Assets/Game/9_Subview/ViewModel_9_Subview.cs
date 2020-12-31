@@ -3,7 +3,7 @@ using UnityEngine.Assertions;
 using UnityWeld.Binding;
 
 [Binding]
-public class ViewModel_9_Subview : ViewModel
+public class ViewModel_9_Subview : ViewModelMonoBehaviour
 {
     [SerializeField] private GameObject cube = null;
 

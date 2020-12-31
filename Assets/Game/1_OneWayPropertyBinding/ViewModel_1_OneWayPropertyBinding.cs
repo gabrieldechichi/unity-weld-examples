@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityWeld.Binding;
 
 [Binding]
-public class ViewModel_1_OneWayPropertyBinding : ViewModel
+public class ViewModel_1_OneWayPropertyBinding : ViewModelMonoBehaviour
 {
     private string text;
 

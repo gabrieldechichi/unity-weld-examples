@@ -1,7 +1,7 @@
 ﻿using UnityWeld.Binding;
 
 [Binding]
-public class ViewModel_2_TwoWayPropertyBinding : ViewModel
+public class ViewModel_2_TwoWayPropertyBinding : ViewModelMonoBehaviour
 {
     private string text;
 

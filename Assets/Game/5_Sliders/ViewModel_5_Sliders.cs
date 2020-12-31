@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityWeld.Binding;
 
 [Binding]
-public class ViewModel_5_Sliders : ViewModel
+public class ViewModel_5_Sliders : ViewModelMonoBehaviour
 {
     private float sliderValue = 2.5f;
 

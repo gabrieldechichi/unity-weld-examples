@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityWeld.Binding;
 
 [Binding]
-public class ViewModel_6_Dropdown : ViewModel
+public class ViewModel_6_Dropdown : ViewModelMonoBehaviour
 {
     private static string[] options = new string[]
     {

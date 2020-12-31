@@ -366,10 +366,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 205800110}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b0034ae1689a39643b14ea9dfb4cbca7, type: 3}
+  m_Script: {fileID: 11500000, guid: 5bc058f74a2e69947b3934c774f5d8ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cube: {fileID: 79939881}
+  viewModelPropertyName: ViewModel_9_Subview.ColorView
+  viewModelTypeName: ColorControlView
 --- !u!114 &205800112
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2049,8 +2050,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98c6a17d4e3f7774f887a87e7bac3163, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cube: {fileID: 79939883}
-  colorView: {fileID: 205800111}
+  cube: {fileID: 79939879}
 --- !u!114 &1352025814
 MonoBehaviour:
   m_ObjectHideFlags: 0

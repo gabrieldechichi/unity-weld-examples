@@ -38,7 +38,7 @@ public class ItemViewModel : INotifyPropertyChanged
 
 
 [Binding]
-public class ViewModel_7_Collections : ViewModel
+public class ViewModel_7_Collections : ViewModelMonoBehaviour
 {
 
     ObservableList<ItemViewModel> items = new ObservableList<ItemViewModel>()
