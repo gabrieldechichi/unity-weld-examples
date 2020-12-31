@@ -10,7 +10,7 @@ public class ViewModel_5_Sliders : ViewModel
 
     private bool isValid = true;
 
-    [SerializeField] private Transform cube;
+    [SerializeField] private Transform cube = null;
 
     [Binding]
     public float SliderValue
